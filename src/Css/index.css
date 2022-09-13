@@ -240,6 +240,13 @@ ul,li{
     color: #fff;
     text-align: center;
 }
+.forth .context{
+    margin: 0 auto;
+    width: 70%;
+}
+.forth .context img{
+    width: 100%;
+}
 .forth .btn{
     background-color: #001d3d;
     color: #fff;
