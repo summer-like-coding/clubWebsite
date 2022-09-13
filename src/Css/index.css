@@ -1,11 +1,13 @@
-*{
+* {
     box-sizing: border-box;
     color: #004ca3;
 }
-ul,li{
+
+ul, li {
     list-style: none;
 }
-.nav{
+
+.nav {
     width: 100%;
     height: 15%;
     display: flex;
@@ -13,16 +15,20 @@ ul,li{
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 10%;
 }
-.logo>img{
+
+.logo>img {
     width: 100%;
 }
-.navlist{
+
+.navlist {
     width: 60%;
 }
-.navlist{
+
+.navlist {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,14 +36,16 @@ ul,li{
     margin: 0;
     padding: 0;
 }
-.nav .signUp{
+
+.nav .signUp {
     background-color: #004ca3;
     border-radius: 10px;
     border: 1px solid #004ca3;
     /* border: 1px solid black; */
 
 }
-.nav .signUp a{
+
+.nav .signUp a {
     color: #fff;
     display: inline-flex;
     font-size: 16px;
@@ -47,42 +55,47 @@ ul,li{
     text-decoration: none;
 }
 
-.first{
-   padding-bottom: 64px;
-   padding-top: 64px; 
-   margin: auto;
-   max-width: 1280px;
-   padding-left: 32px;
-   padding-right: 32px;
-   display: flex;
-   align-items: center;
-   flex-direction: row;
+.first {
+    padding-bottom: 64px;
+    padding-top: 64px;
+    margin: auto;
+    max-width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
-.first .left{
+
+.first .left {
     width: 50%;
     vertical-align: top;
     max-width: 1776px;
 }
-.first .left img{
+
+.first .left img {
     width: 100%;
 }
-.right h1{
+
+.right h1 {
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.1;
-    margin-bottom:16px ;
+    margin-bottom: 16px;
     font-size: 32px;
     color: #004ca3;
 }
-.right p{
+
+.right p {
     font-weight: 400;
     letter-spacing: 0;
-    line-height:1.65 ;
+    line-height: 1.65;
     margin-bottom: 16px;
     font-size: 16px;
     color: #004ca3;
 }
-.right .buttonList{
+
+.right .buttonList {
     margin-bottom: 32px;
     margin-top: 32px;
     display: flex;
@@ -91,7 +104,8 @@ ul,li{
     padding: 0;
     justify-content: space-around;
 }
-.right .buttonList a{
+
+.right .buttonList a {
     background-color: #004ca3;
     color: #fff;
     border-radius: 10px;
@@ -102,14 +116,16 @@ ul,li{
     padding: 16px;
     text-decoration: none;
 }
-.second{
+
+.second {
     padding: 32px;
     width: 100%;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
-.second .title,.second .subtitle{
+
+.second .title, .second .subtitle {
     text-align: center;
     font-size: 24px;
     font-weight: 400;
@@ -117,10 +133,12 @@ ul,li{
     line-height: 1.5;
     margin-bottom: 16px;
 }
-.second .subtitle{
+
+.second .subtitle {
     font-size: 18px;
 }
-.second .postList{
+
+.second .postList {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -131,7 +149,8 @@ ul,li{
     flex-wrap: wrap;
     gap: 32px;
 }
-.second .postList li{
+
+.second .postList li {
     display: block;
     max-width: 400px;
     width: 100%;
@@ -144,30 +163,33 @@ ul,li{
     line-height: 1.5;
     letter-spacing: 0;
 }
-.second .postList img{
+
+.second .postList img {
     height: 64px;
     width: 64px;
     /* margin-bottom: 16px; */
     max-width: 129px;
 }
 
-.second .postList h3{
+.second .postList h3 {
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.1;
     margin-bottom: 32px;
     font-size: 32px;
 }
-.third{
+
+.third {
     padding: 32px;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 24px;
-    background-color: #f5fcff;;
+    background-color: #f5fcff;
+    ;
 }
 
-.third .topTitle{
+.third .topTitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -179,14 +201,16 @@ ul,li{
     margin-bottom: 16px;
     font-size: 32px;
 }
-.third .topTitle .title{
+
+.third .topTitle .title {
     font-size: 24px;
     letter-spacing: 0.08em;
     margin-bottom: 8px;
     text-transform: uppercase;
     font-weight: 500;
 }
-.third .imgList{
+
+.third .imgList {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -195,7 +219,8 @@ ul,li{
     flex-direction: column;
     align-items: center;
 }
-.imgList li{
+
+.imgList li {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -203,18 +228,21 @@ ul,li{
     width: 100%;
     /* gap: 32px; */
 }
-.imgList li img{
+
+.imgList li img {
     height: 64px;
     width: 64px;
 }
-.imgList li h3{
+
+.imgList li h3 {
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.1;
     margin-bottom: 16px;
     font-size: 32px;
 }
-.imgList li p{
+
+.imgList li p {
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.5;
@@ -222,16 +250,86 @@ ul,li{
     font-size: 16px;
 }
 
-.forth{
+.forth {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    overflow: hidden;
+    margin: 10px auto;
+    border: 1px solid #004ca3;
+}
+
+.forth h1 {
+    margin: 0 auto;
+}
+
+.forth .showBox {
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 200px;
+    color: white;
+
+}
+
+.forth .showBox .hope {
+    color: rgba(77, 106, 186, 0.722);
+    border-radius: 0.5em;
+    text-align: center;
+    max-height: 20%;
+
+}
+
+.forth .showBox .animate {
+    /* position: relative; */
+    animation: slidein 4s linear 1s alternate;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        /* width: 300%; */
+    }
+
+    to {
+        margin-left: -10%;
+        /* width: 100%; */
+    }
+}
+
+.forth .btn {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+.forth .btn input, .forth .btn button {
+    height: 36px;
+    margin-left: 10px;
+}
+
+.fifth {
     padding-left: 64px;
-    padding-right:64px ;
+    padding-right: 64px;
     max-width: 1280px;
     background-color: #004ca3;
     border-radius: 24px;
     overflow: hidden;
     margin: 0 auto;
 }
-.forth h2{
+
+.fifth h2 {
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.1;
@@ -240,14 +338,17 @@ ul,li{
     color: #fff;
     text-align: center;
 }
-.forth .context{
+
+.fifth .context {
     margin: 0 auto;
     width: 70%;
 }
-.forth .context img{
+
+.fifth .context img {
     width: 100%;
 }
-.forth .btn{
+
+.fifth .btn {
     background-color: #001d3d;
     color: #fff;
     border-radius: 10px;
