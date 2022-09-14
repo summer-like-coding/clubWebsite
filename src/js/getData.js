@@ -3,7 +3,7 @@
 // let dataSource = []
 
 const getData = () => {
-  fetch('http://localhost:5000/reviews')
+  fetch('/reviews')
   .then(response => response.json())
   .then(data => formateData(data));
 }
@@ -34,7 +34,7 @@ const postData = () => {
     id: generateRandom(),
     content: input.value
   }
-  fetch('http://localhost:5000/reviews', {
+  fetch('/reviews', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
