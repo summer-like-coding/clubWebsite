@@ -14,13 +14,25 @@ const getData = () => {
 
 let forth = this.document.querySelector(".forth")
 let showBox = forth.querySelector(".showBox")
-
+// 判断是不是第一次获取数据
+let isFirst = true
 
 const formateData = (data) => {
-  let newdata = data.map(ele => {
-    showBox.innerHTML += `<div class="hope animate">${ele.content}</div>`
-  })
-  return newdata
+  if (isFirst) {
+    let newdata = data.map(ele => {
+      showBox.innerHTML += `<div class="hope animate">${ele.content}</div>`
+    })
+    isFirst = false
+    return newdata
+  } else {
+    // console.log("data",data);
+    // newdata = data.pop()
+    location.reload();
+    // console.log(newdata);
+    // console.log("isFIrst", isFirst);
+    return newdata
+  }
+  
 }
 
 // 获取input的输入
@@ -44,6 +56,7 @@ const postData = () => {
     },
     body: JSON.stringify(data)
   })
+  // setTimeout(getData(),2000)
   getData()
   input.value = ""
 }
