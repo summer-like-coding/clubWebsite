@@ -1,32 +1,16 @@
 {
   "reviews": [
     {
-      "id": 1,
-      "content": "希望社团越来越好"
-    },
-    {
-      "id": 2,
-      "content": "希望可以加入社团"
-    },
-    {
-      "id": 3,
-      "content": "社团主要任务是干啥"
-    },
-    {
-      "id": 4,
-      "content": "hello,你们好"
-    },
-    {
       "id": "daff29cca45f",
-      "content": "你哈"
+      "content": "希望越来越好"
     },
     {
       "id": "d792b706629b5",
-      "content": "我不好"
+      "content": "希望有人加入"
     },
     {
       "id": "13311d9affde",
-      "content": "还行号"
+      "content": "希望被善待"
     },
     {
       "id": "5d994dc0d501f",
@@ -46,23 +30,11 @@
     },
     {
       "id": "4861a0b740bf7",
-      "content": "算啦吧"
+      "content": "还行吧"
     },
     {
       "id": "02ad80bfc136d",
       "content": "fine"
-    },
-    {
-      "id": "cc9a5009c5835",
-      "content": "希望越来越好"
-    },
-    {
-      "id": "208a3971147b4",
-      "content": "你好"
-    },
-    {
-      "id": "f099258949c67",
-      "content": "bushi"
     }
   ]
 }

@@ -275,8 +275,26 @@ ul, li {
 
 }
 
+.forth .showBox :nth-child(n) {
+    color:rgb(220, 105, 23);
+}
+
+.forth .showBox :nth-child(5n+1){
+    color: #08458b;
+}
+.forth .showBox :nth-child(5n+4) {
+    color:rgb(94, 131, 201);
+}
+
+.forth .showBox :nth-child(7n+4){
+    color: rgb(127, 35, 35);
+}
+.forth .showBox :nth-child(7n+6) {
+    color:rgb(18, 142, 18);
+}
+
 .forth .showBox .hope {
-    color: rgba(77, 106, 186, 0.722);
+    /* color: rgba(77, 106, 186, 0.722); */
     border-radius: 0.5em;
     text-align: center;
     max-height: 20%;
@@ -285,18 +303,20 @@ ul, li {
 
 .forth .showBox .animate {
     /* position: relative; */
-    animation: slidein 4s linear 1s alternate;
+    /*  简写   名字   时间   曲线    开始时间   次数    逆向还原    结束状态是否回去*/
+    animation: slidein 5s linear 0s 999;
+
 }
 
 @keyframes slidein {
     from {
-        margin-left: 100%;
-        /* width: 300%; */
+        left: 100%;
+        transform: translate3d(0, 0, 0);
     }
 
     to {
-        margin-left: -10%;
-        /* width: 100%; */
+        left: 0;
+        transform: translate3d(-100%, 0, 0);
     }
 }
 

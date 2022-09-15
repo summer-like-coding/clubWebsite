@@ -1,17 +1,20 @@
 // import { nanoid } from 'nanoid'
 // 设置一个值将从服务器获取的数据存储起来
 // let dataSource = []
+const host  =  `http://localhost:5000`
 
 const getData = () => {
-  fetch('/reviews')
+  fetch(`${host}/reviews`)
   .then(response => response.json())
   .then(data => formateData(data));
 }
 
 (getData)()
+// setInterval(getData(),5)
 
 let forth = this.document.querySelector(".forth")
 let showBox = forth.querySelector(".showBox")
+
 
 const formateData = (data) => {
   let newdata = data.map(ele => {
@@ -34,7 +37,7 @@ const postData = () => {
     id: generateRandom(),
     content: input.value
   }
-  fetch('/reviews', {
+  fetch(`${host}/reviews`, {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
